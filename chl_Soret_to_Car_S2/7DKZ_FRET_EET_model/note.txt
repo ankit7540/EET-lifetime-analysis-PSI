@@ -1,0 +1,46 @@
+
+
+File and their description :
+
+resd_coord_file_sel.DAT      -  a file which has the coordinate information
+								for each target residue in the pdb file
+								(generated from a helper script).
+								In the present case, the target are : chlorophyll and carotenoids
+								
+								
+example_distance.ipynb       -  jupyter notebook showing example of the
+								computation of distance from the coordinates
+								of the residue in the .DAT file
+								
+
+example_FRET.ipynb       -  jupyter notebook showing example of the
+								computation of distance from the coordinates, orientation
+								and lastly computation for FRET rates
+								 (This file has all computation combined)
+                                
+
+example_orientation.ipynb    -  jupyter notebook showing example of the
+								computation of orientation factor from
+								the coordinates for the residue in the .DAT file				
+
+folder / theoretical_data    - contains txt file which has information on the 
+								(Transition Dipole Moment) TDM for the chl-a molecule
+								
+
+folder / src                 - contains py files, one for distance processing
+								and one for orientation factor processing.
+
+
+
+#------------------------------------------------
+
+# Usage :
+
+ - Run the jupyter  notebook files as such. They load the required modules, 
+    and then perform computation using the DAT file.
+
+	Files in the folder `src` is called internally, and the DAT file is
+	  accessed for residue specific data when running the jupyter notebook.
+
+								
+								

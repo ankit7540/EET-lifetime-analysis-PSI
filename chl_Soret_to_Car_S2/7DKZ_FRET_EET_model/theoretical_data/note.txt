@@ -1,0 +1,4 @@
+
+Information on the vectors of the transition dipoles for the chl-a
+are adapted from the ab-initio work described in https://pubs.acs.org/doi/10.1021/acs.jpcb.0c05761
+

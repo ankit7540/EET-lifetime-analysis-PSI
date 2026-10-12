@@ -1,0 +1,36 @@
+
+
+File and their description :
+
+directory `TDC_calc_output`   -  folder containing pkl files which have V_{TDC} data
+								 arranged for chl and car residues in 7DKZ.
+								 
+								
+								
+								
+TDC_calc_output/voxel_v_0.125/vtdc_0.125b3_.pkl       -  pandas pkl file
+								which has residue ids as indexes for chl across rows 
+								and for car units across cols, computed for volxel volume = 0.125 bohr^3.
+								
+
+TDC_calc_output/voxel_v_0.216/vtdc_0.216b3_.pkl       -  pandas pkl file
+								which has residue ids as indexes for chl across rows 
+								and for car units across cols, computed for volxel volume = 0.216 bohr^3.
+                                
+
+example_vTDC_and_lifetimes_voxel_0.125bohr^3.ipynb    -  jupyter notebook showing example of the
+								computation of EET rates and lifetimes
+
+example_vTDC_and_lifetimes_voxel_0.216bohr^3.ipynb    -  jupyter notebook showing example of the
+								computation of EET rates and lifetimes
+								
+ 
+#------------------------------------------------
+
+# Usage :
+
+ - Run the jupyter  notebook files as such. They load the required file,
+    and then show the plots.
+ 
+								
+								
