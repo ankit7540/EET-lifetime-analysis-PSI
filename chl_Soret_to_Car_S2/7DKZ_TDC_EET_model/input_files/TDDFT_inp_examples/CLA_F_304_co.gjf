@@ -1,6 +1,4 @@
 %chk=CLA_F_304_co.chk
-%mem=15GB
-%CPU=0-19
 # td=(nstates=14) cam-b3lyp/def2svp nosymm scf=qc SCRF=(Solvent=Cyclohexane) density=all geom=connectivity IOp(9/40=4)
 
 CLA_F_304_co

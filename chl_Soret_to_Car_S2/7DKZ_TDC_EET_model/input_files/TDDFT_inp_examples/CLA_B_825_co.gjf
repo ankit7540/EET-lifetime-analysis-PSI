@@ -1,6 +1,4 @@
 %chk=CLA_B_825_co.chk
-%CPU=0-19
-%mem=14GB
 # td=(nstates=14) cam-b3lyp/def2svp nosymm scf=qc SCRF=(Solvent=Cyclohexane) density=all geom=connectivity IOp(9/40=4)
 
 CLA_B_825_co
